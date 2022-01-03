@@ -1,7 +1,6 @@
-## Campaign backend for frontend
+## Django start project
 ```
-A service for a point of sale (POS) system.
-Built with Python and Django
+Django start project for deploy in aws
 ```
 
 ## Setup and Execution
