@@ -8,10 +8,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class Common(Configuration):
 
-    SECRET_KEY: str = os.getenv(
-        "DJANGO_SECRET_KEY", "chdjn-en9=y%9b&l7xlss@kur=+51dlqtn)kvg31^t++3@25ar"
-    )
-
     DEBUG: bool = False
 
     ALLOWED_HOSTS: List[str] = []

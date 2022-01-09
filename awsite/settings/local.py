@@ -1,5 +1,4 @@
-import socket
-
+import os
 from .common import Common
 
 
@@ -8,3 +7,5 @@ class Local(Common):
     DEBUG = True
     LOG_LEVEL = "DEBUG"
     LOG_FORMATTER = "simple"
+
+    SECRET_KEY: str = os.getenv("DJANGO_SECRET_KEY", "sddds")
